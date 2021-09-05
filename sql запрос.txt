@@ -1,0 +1,3 @@
+Select Product.Name as Продукт,Categories.name as Категория from Product 
+left join Connect on Connect.id_product = Product.id
+left join Categories  on Connect.id_categories = Categories.id
